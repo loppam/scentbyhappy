@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { storage } from "./firebase";
+import { storage } from "./Firebase";
 import { Avatar } from "@mui/material";
-import { db } from "./firebase";
+import { db } from "./Firebase";
 import FolderIcon from "@mui/icons-material/Folder";
 import { useNavigate } from "react-router-dom";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
